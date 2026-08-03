@@ -22,7 +22,7 @@ SC : O(1)
 */
 int findLargest(vector<int> &arr){
   int largest = arr[0];
-  for(int i=0; i<arr.size(); i++){
+  for(int i=1; i<arr.size(); i++){
       if(largest < arr[i]){
           largest = arr[i];
       }
