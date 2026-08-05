@@ -19,9 +19,7 @@ int find_second_largest(vector<int> arr){
 }
 int main(){
     vector<int> arr = {7,4,6,9,3,2};
-    //cout<<"Array : "<<arr;  --> since arr is a vector to dispaly that array we need a for loop to access all elements
     cout<<"Second Largest : "<<find_second_largest(arr);
     return 0;
-
 }
 
