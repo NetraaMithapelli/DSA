@@ -3,11 +3,10 @@ using namespace std;
 
 /*
 Problem : Given an array of integers and a target element x, 
-          return the index of x if it exists in the array. Otherwise, return -1.
-          
+          return the index of x if it exists in the array. Otherwise, return -1.         
 Example : [2,3,5,6,3] , x=5
 Output  : 2 (index of 5)     
-
+---------------------------------------
 Brute Force Approach
 1)Traverse teh array from left tp right
 2)Compare each element with x
@@ -27,13 +26,10 @@ int linear_search(vector<int> &arr, int x){
 int main(){
     vector<int>arr = {2,3,4,5,1,6};
     int x = 1;
-
     int index = linear_search(arr, x);
-
     if(index == -1)
-        cout << "Element not found";
+        cout<<"Element not found";
     else
-        cout << "Element found at index " << index;
-
+        cout<<"Element found at index " << index;
     return 0;
 }
